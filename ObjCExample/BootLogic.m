@@ -21,10 +21,15 @@
                                     @{TITLE: @"Basic Slider", CLASS: @"BasicSlider"},
                                     @{TITLE: @"Advanced Slider 1", CLASS: @"AdvancedSlider1"},
                                     @{TITLE: @"Advanced Slider 2", CLASS: @"AdvancedSlider2"},
-                                    @{TITLE: @"Image Skewer", CLASS: @"ImageSkewer"},
-                                    @{TITLE: @"Barcelona Rotation", CLASS: @"BarcelonaRotation"}
+                                    @{TITLE: @"Image Skewer", CLASS: @"ImageSkewer"}
                                     
                           ]};
+    NSDictionary* collectionDemo = @{SECTION: @"Collection", MENU: @[
+                                             @{TITLE: @"Barcelona Rotation", CLASS: @"BarcelonaRotation"},
+                                             @{TITLE: @"Unique elements from array", CLASS: @"UniqueElementFromArrayDemo"}
+                                    
+                                    ]};
+    
     NSDictionary* intermediate = @{SECTION: @"Intermediate", MENU: @[
                                     @{TITLE: @"Inter B", CLASS: @"InterB"}
                                   ]};
@@ -32,7 +37,7 @@
                                     @{TITLE: @"Advanced C", CLASS: @"AdvancedC"}
                              ]};
     
-    mainScreen.menu = @[basic, intermediate, advanced];
+    mainScreen.menu = @[basic, collectionDemo, intermediate, advanced];
     mainScreen.title = @"Bootstrap App";
     mainScreen.about = @"This is demo bootstrap demo app. It is collection of sample code of AVFoundation";
     //--------- End of customization -----------

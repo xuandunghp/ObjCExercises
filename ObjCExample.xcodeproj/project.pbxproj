@@ -28,6 +28,8 @@
 		96B1E3281BB4897F0089CCDF /* steve.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96B1E3271BB4897F0089CCDF /* steve.jpg */; settings = {ASSET_TAGS = (); }; };
 		96B1E32B1BB536430089CCDF /* BarcelonaRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1E32A1BB536430089CCDF /* BarcelonaRotation.m */; settings = {ASSET_TAGS = (); }; };
 		96B1E32D1BB536A60089CCDF /* BarcelonaPlayers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96B1E32C1BB536A60089CCDF /* BarcelonaPlayers.plist */; settings = {ASSET_TAGS = (); }; };
+		96B1E3331BB550EE0089CCDF /* NSArray+GettingUniqueElementsAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1E3321BB550EE0089CCDF /* NSArray+GettingUniqueElementsAddition.m */; settings = {ASSET_TAGS = (); }; };
+		96B1E3361BB552FB0089CCDF /* UniqueElementFromArrayDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1E3351BB552FB0089CCDF /* UniqueElementFromArrayDemo.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +86,10 @@
 		96B1E3291BB536430089CCDF /* BarcelonaRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcelonaRotation.h; sourceTree = "<group>"; };
 		96B1E32A1BB536430089CCDF /* BarcelonaRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarcelonaRotation.m; sourceTree = "<group>"; };
 		96B1E32C1BB536A60089CCDF /* BarcelonaPlayers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BarcelonaPlayers.plist; sourceTree = "<group>"; };
+		96B1E3311BB550EE0089CCDF /* NSArray+GettingUniqueElementsAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+GettingUniqueElementsAddition.h"; sourceTree = "<group>"; };
+		96B1E3321BB550EE0089CCDF /* NSArray+GettingUniqueElementsAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+GettingUniqueElementsAddition.m"; sourceTree = "<group>"; };
+		96B1E3341BB552FB0089CCDF /* UniqueElementFromArrayDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniqueElementFromArrayDemo.h; sourceTree = "<group>"; };
+		96B1E3351BB552FB0089CCDF /* UniqueElementFromArrayDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniqueElementFromArrayDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +241,10 @@
 				96B1E3291BB536430089CCDF /* BarcelonaRotation.h */,
 				96B1E32A1BB536430089CCDF /* BarcelonaRotation.m */,
 				96B1E32C1BB536A60089CCDF /* BarcelonaPlayers.plist */,
+				96B1E3311BB550EE0089CCDF /* NSArray+GettingUniqueElementsAddition.h */,
+				96B1E3321BB550EE0089CCDF /* NSArray+GettingUniqueElementsAddition.m */,
+				96B1E3341BB552FB0089CCDF /* UniqueElementFromArrayDemo.h */,
+				96B1E3351BB552FB0089CCDF /* UniqueElementFromArrayDemo.m */,
 			);
 			name = Array;
 			sourceTree = "<group>";
@@ -403,8 +413,10 @@
 				96B1E30E1BB25ADF0089CCDF /* AdvancedSlider2.m in Sources */,
 				96B1E29D1BAC960E0089CCDF /* DemoSelector.m in Sources */,
 				96B1E2551BAC77270089CCDF /* main.m in Sources */,
+				96B1E3331BB550EE0089CCDF /* NSArray+GettingUniqueElementsAddition.m in Sources */,
 				96B1E3091BB06B970089CCDF /* AdvancedSlider1.m in Sources */,
 				96B1E3041BB05C640089CCDF /* BasicSlider.m in Sources */,
+				96B1E3361BB552FB0089CCDF /* UniqueElementFromArrayDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
