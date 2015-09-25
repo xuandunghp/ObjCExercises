@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>number</key>
+		<string>1</string>
+		<key>name</key>
+		<string>Marc-Andre ter Stegen</string>
+		<key>position</key>
+		<string>GK</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>3</string>
+		<key>name</key>
+		<string>Gerard Pique</string>
+		<key>position</key>
+		<string>DF</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>4</string>
+		<key>name</key>
+		<string>Ivan Rakitic</string>
+		<key>position</key>
+		<string>MF</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>5</string>
+		<key>name</key>
+		<string>Sergio Busquets</string>
+		<key>position</key>
+		<string>MF</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>7</string>
+		<key>name</key>
+		<string>Pedro Rodriguez</string>
+		<key>position</key>
+		<string>FW</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>8</string>
+		<key>name</key>
+		<string>Andres Iniesta</string>
+		<key>position</key>
+		<string>MF</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>9</string>
+		<key>name</key>
+		<string>Luis Suarez</string>
+		<key>position</key>
+		<string>FW</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>10</string>
+		<key>name</key>
+		<string>Lionel Messi</string>
+		<key>position</key>
+		<string>FW</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>11</string>
+		<key>name</key>
+		<string>Neymar</string>
+		<key>position</key>
+		<string>FW</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>12</string>
+		<key>name</key>
+		<string>Rafinha</string>
+		<key>position</key>
+		<string>MF</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>13</string>
+		<key>name</key>
+		<string>Claudio Bravo</string>
+		<key>position</key>
+		<string>GK</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>14</string>
+		<key>name</key>
+		<string>Javier Mascherano</string>
+		<key>position</key>
+		<string>MF</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>15</string>
+		<key>name</key>
+		<string>Marc Bartra</string>
+		<key>position</key>
+		<string>DF</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>16</string>
+		<key>name</key>
+		<string>Douglas</string>
+		<key>position</key>
+		<string>DF</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>18</string>
+		<key>name</key>
+		<string>Jordi Alba</string>
+		<key>position</key>
+		<string>DF</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>20</string>
+		<key>name</key>
+		<string>Sergi Roberto</string>
+		<key>position</key>
+		<string>MF</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>21</string>
+		<key>name</key>
+		<string>Adriano</string>
+		<key>position</key>
+		<string>DF</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>22</string>
+		<key>name</key>
+		<string>Dani Alves</string>
+		<key>position</key>
+		<string>DF</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>23</string>
+		<key>name</key>
+		<string>Thomas Vermaelen</string>
+		<key>position</key>
+		<string>DF</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>24</string>
+		<key>name</key>
+		<string>Jeremy Mathieu</string>
+		<key>position</key>
+		<string>DF</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>25</string>
+		<key>name</key>
+		<string>Jordi Masip</string>
+		<key>position</key>
+		<string>GK</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>40</string>
+		<key>name</key>
+		<string>Alex Song</string>
+		<key>position</key>
+		<string>MF</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>6</string>
+		<key>name</key>
+		<string>Arda Turan</string>
+		<key>position</key>
+		<string>MF</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>22</string>
+		<key>name</key>
+		<string>Aleix Vidal</string>
+		<key>position</key>
+		<string>MF</string>
+	</dict>
+</array>
+</plist>

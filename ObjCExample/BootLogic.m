@@ -21,7 +21,9 @@
                                     @{TITLE: @"Basic Slider", CLASS: @"BasicSlider"},
                                     @{TITLE: @"Advanced Slider 1", CLASS: @"AdvancedSlider1"},
                                     @{TITLE: @"Advanced Slider 2", CLASS: @"AdvancedSlider2"},
-                                    @{TITLE: @"Image Skewer", CLASS: @"ImageSkewer"}
+                                    @{TITLE: @"Image Skewer", CLASS: @"ImageSkewer"},
+                                    @{TITLE: @"Barcelona Rotation", CLASS: @"BarcelonaRotation"}
+                                    
                           ]};
     NSDictionary* intermediate = @{SECTION: @"Intermediate", MENU: @[
                                     @{TITLE: @"Inter B", CLASS: @"InterB"}

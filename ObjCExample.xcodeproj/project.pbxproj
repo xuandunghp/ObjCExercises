@@ -23,10 +23,11 @@
 		96B1E30A1BB06B970089CCDF /* AdvancedSlider1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B1E3081BB06B970089CCDF /* AdvancedSlider1.xib */; settings = {ASSET_TAGS = (); }; };
 		96B1E30E1BB25ADF0089CCDF /* AdvancedSlider2.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1E30C1BB25ADF0089CCDF /* AdvancedSlider2.m */; settings = {ASSET_TAGS = (); }; };
 		96B1E30F1BB25ADF0089CCDF /* AdvancedSlider2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B1E30D1BB25ADF0089CCDF /* AdvancedSlider2.xib */; settings = {ASSET_TAGS = (); }; };
-		96B1E3181BB3FE2E0089CCDF /* QueryArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1E3171BB3FE2E0089CCDF /* QueryArray.m */; settings = {ASSET_TAGS = (); }; };
 		96B1E3211BB482C20089CCDF /* ImageSkewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1E31F1BB482C20089CCDF /* ImageSkewer.m */; settings = {ASSET_TAGS = (); }; };
 		96B1E3221BB482C20089CCDF /* ImageSkewer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96B1E3201BB482C20089CCDF /* ImageSkewer.xib */; settings = {ASSET_TAGS = (); }; };
 		96B1E3281BB4897F0089CCDF /* steve.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96B1E3271BB4897F0089CCDF /* steve.jpg */; settings = {ASSET_TAGS = (); }; };
+		96B1E32B1BB536430089CCDF /* BarcelonaRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1E32A1BB536430089CCDF /* BarcelonaRotation.m */; settings = {ASSET_TAGS = (); }; };
+		96B1E32D1BB536A60089CCDF /* BarcelonaPlayers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96B1E32C1BB536A60089CCDF /* BarcelonaPlayers.plist */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,12 +77,13 @@
 		96B1E30B1BB25ADF0089CCDF /* AdvancedSlider2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedSlider2.h; sourceTree = "<group>"; };
 		96B1E30C1BB25ADF0089CCDF /* AdvancedSlider2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedSlider2.m; sourceTree = "<group>"; };
 		96B1E30D1BB25ADF0089CCDF /* AdvancedSlider2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdvancedSlider2.xib; sourceTree = "<group>"; };
-		96B1E3161BB3FE2E0089CCDF /* QueryArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryArray.h; sourceTree = "<group>"; };
-		96B1E3171BB3FE2E0089CCDF /* QueryArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryArray.m; sourceTree = "<group>"; };
 		96B1E31E1BB482C20089CCDF /* ImageSkewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSkewer.h; sourceTree = "<group>"; };
 		96B1E31F1BB482C20089CCDF /* ImageSkewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageSkewer.m; sourceTree = "<group>"; };
 		96B1E3201BB482C20089CCDF /* ImageSkewer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageSkewer.xib; sourceTree = "<group>"; };
 		96B1E3271BB4897F0089CCDF /* steve.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = steve.jpg; sourceTree = "<group>"; };
+		96B1E3291BB536430089CCDF /* BarcelonaRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcelonaRotation.h; sourceTree = "<group>"; };
+		96B1E32A1BB536430089CCDF /* BarcelonaRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarcelonaRotation.m; sourceTree = "<group>"; };
+		96B1E32C1BB536A60089CCDF /* BarcelonaPlayers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BarcelonaPlayers.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,8 +232,9 @@
 		96B1E3151BB3FDE90089CCDF /* Array */ = {
 			isa = PBXGroup;
 			children = (
-				96B1E3161BB3FE2E0089CCDF /* QueryArray.h */,
-				96B1E3171BB3FE2E0089CCDF /* QueryArray.m */,
+				96B1E3291BB536430089CCDF /* BarcelonaRotation.h */,
+				96B1E32A1BB536430089CCDF /* BarcelonaRotation.m */,
+				96B1E32C1BB536A60089CCDF /* BarcelonaPlayers.plist */,
 			);
 			name = Array;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				96B1E2601BAC77270089CCDF /* Assets.xcassets in Resources */,
 				96B1E30A1BB06B970089CCDF /* AdvancedSlider1.xib in Resources */,
 				96B1E3051BB05C640089CCDF /* BasicSlider.xib in Resources */,
+				96B1E32D1BB536A60089CCDF /* BarcelonaPlayers.plist in Resources */,
 				96B1E30F1BB25ADF0089CCDF /* AdvancedSlider2.xib in Resources */,
 				96B1E3221BB482C20089CCDF /* ImageSkewer.xib in Resources */,
 				96B1E3281BB4897F0089CCDF /* steve.jpg in Resources */,
@@ -392,9 +396,9 @@
 				96B1E2901BAC7A0E0089CCDF /* BootLogic.m in Sources */,
 				96B1E2921BAC7A0E0089CCDF /* MainScreen.m in Sources */,
 				96B1E2911BAC7A0E0089CCDF /* ConsoleScreen.m in Sources */,
-				96B1E3181BB3FE2E0089CCDF /* QueryArray.m in Sources */,
 				96B1E3211BB482C20089CCDF /* ImageSkewer.m in Sources */,
 				96B1E28F1BAC7A0E0089CCDF /* AppDelegate.m in Sources */,
+				96B1E32B1BB536430089CCDF /* BarcelonaRotation.m in Sources */,
 				96B1E2991BAC8F9C0089CCDF /* DemoFunction.m in Sources */,
 				96B1E30E1BB25ADF0089CCDF /* AdvancedSlider2.m in Sources */,
 				96B1E29D1BAC960E0089CCDF /* DemoSelector.m in Sources */,
