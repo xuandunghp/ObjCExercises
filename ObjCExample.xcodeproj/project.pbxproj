@@ -31,6 +31,8 @@
 		96B1E3331BB550EE0089CCDF /* NSArray+GettingUniqueElementsAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1E3321BB550EE0089CCDF /* NSArray+GettingUniqueElementsAddition.m */; settings = {ASSET_TAGS = (); }; };
 		96B1E3361BB552FB0089CCDF /* UniqueElementFromArrayDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1E3351BB552FB0089CCDF /* UniqueElementFromArrayDemo.m */; settings = {ASSET_TAGS = (); }; };
 		96B1E33C1BB65C830089CCDF /* IntegerToText.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1E33B1BB65C830089CCDF /* IntegerToText.m */; settings = {ASSET_TAGS = (); }; };
+		96FEEA761BB864D90092C981 /* Exercise1.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FEEA751BB864D90092C981 /* Exercise1.m */; settings = {ASSET_TAGS = (); }; };
+		96FEEA791BB873EC0092C981 /* Exercise2.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FEEA781BB873EC0092C981 /* Exercise2.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +95,10 @@
 		96B1E3351BB552FB0089CCDF /* UniqueElementFromArrayDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniqueElementFromArrayDemo.m; sourceTree = "<group>"; };
 		96B1E33A1BB65C830089CCDF /* IntegerToText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegerToText.h; sourceTree = "<group>"; };
 		96B1E33B1BB65C830089CCDF /* IntegerToText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegerToText.m; sourceTree = "<group>"; };
+		96FEEA741BB864D90092C981 /* Exercise1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercise1.h; sourceTree = "<group>"; };
+		96FEEA751BB864D90092C981 /* Exercise1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exercise1.m; sourceTree = "<group>"; };
+		96FEEA771BB873EC0092C981 /* Exercise2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercise2.h; sourceTree = "<group>"; };
+		96FEEA781BB873EC0092C981 /* Exercise2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exercise2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +247,7 @@
 		96B1E3151BB3FDE90089CCDF /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				96FEEA731BB80D2D0092C981 /* QuickSort */,
 				96B1E3391BB65C300089CCDF /* IntegerToText */,
 				96B1E3381BB65ACA0089CCDF /* UniqueElements */,
 				96B1E3371BB65AB40089CCDF /* BarcelonaRotation */,
@@ -294,6 +301,17 @@
 				96B1E33B1BB65C830089CCDF /* IntegerToText.m */,
 			);
 			name = IntegerToText;
+			sourceTree = "<group>";
+		};
+		96FEEA731BB80D2D0092C981 /* QuickSort */ = {
+			isa = PBXGroup;
+			children = (
+				96FEEA741BB864D90092C981 /* Exercise1.h */,
+				96FEEA751BB864D90092C981 /* Exercise1.m */,
+				96FEEA771BB873EC0092C981 /* Exercise2.h */,
+				96FEEA781BB873EC0092C981 /* Exercise2.m */,
+			);
+			name = QuickSort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -443,6 +461,8 @@
 				96B1E33C1BB65C830089CCDF /* IntegerToText.m in Sources */,
 				96B1E29D1BAC960E0089CCDF /* DemoSelector.m in Sources */,
 				96B1E2551BAC77270089CCDF /* main.m in Sources */,
+				96FEEA761BB864D90092C981 /* Exercise1.m in Sources */,
+				96FEEA791BB873EC0092C981 /* Exercise2.m in Sources */,
 				96B1E3331BB550EE0089CCDF /* NSArray+GettingUniqueElementsAddition.m in Sources */,
 				96B1E3091BB06B970089CCDF /* AdvancedSlider1.m in Sources */,
 				96B1E3041BB05C640089CCDF /* BasicSlider.m in Sources */,
@@ -662,6 +682,7 @@
 				96B1E27F1BAC77270089CCDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96B1E2801BAC77270089CCDF /* Build configuration list for PBXNativeTarget "ObjCExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -670,6 +691,7 @@
 				96B1E2821BAC77270089CCDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96B1E2831BAC77270089CCDF /* Build configuration list for PBXNativeTarget "ObjCExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -678,6 +700,7 @@
 				96B1E2851BAC77270089CCDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
