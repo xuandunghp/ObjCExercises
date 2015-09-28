@@ -34,7 +34,8 @@
 		96FEEA761BB864D90092C981 /* Exercise1.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FEEA751BB864D90092C981 /* Exercise1.m */; settings = {ASSET_TAGS = (); }; };
 		96FEEA791BB873EC0092C981 /* Exercise2.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FEEA781BB873EC0092C981 /* Exercise2.m */; settings = {ASSET_TAGS = (); }; };
 		96FEEA7C1BB922A50092C981 /* DictionaryDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FEEA7B1BB922A50092C981 /* DictionaryDemo.m */; settings = {ASSET_TAGS = (); }; };
-		96FEEA7E1BB922E60092C981 /* Dictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96FEEA7D1BB922E60092C981 /* Dictionary.plist */; settings = {ASSET_TAGS = (); }; };
+		96FEEA821BB931600092C981 /* NSArray+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FEEA811BB931600092C981 /* NSArray+Extend.m */; settings = {ASSET_TAGS = (); }; };
+		96FEEA851BB931A20092C981 /* WordCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FEEA841BB931A20092C981 /* WordCount.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,7 +104,10 @@
 		96FEEA781BB873EC0092C981 /* Exercise2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exercise2.m; sourceTree = "<group>"; };
 		96FEEA7A1BB922A50092C981 /* DictionaryDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionaryDemo.h; sourceTree = "<group>"; };
 		96FEEA7B1BB922A50092C981 /* DictionaryDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionaryDemo.m; sourceTree = "<group>"; };
-		96FEEA7D1BB922E60092C981 /* Dictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Dictionary.plist; sourceTree = "<group>"; };
+		96FEEA801BB931600092C981 /* NSArray+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extend.h"; sourceTree = "<group>"; };
+		96FEEA811BB931600092C981 /* NSArray+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extend.m"; sourceTree = "<group>"; };
+		96FEEA831BB931A20092C981 /* WordCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordCount.h; sourceTree = "<group>"; };
+		96FEEA841BB931A20092C981 /* WordCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordCount.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +256,7 @@
 		96B1E3151BB3FDE90089CCDF /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				96FEEA7F1BB9308B0092C981 /* NSMutable Array */,
 				96FEEA731BB80D2D0092C981 /* QuickSort */,
 				96B1E3391BB65C300089CCDF /* IntegerToText */,
 				96B1E3381BB65ACA0089CCDF /* UniqueElements */,
@@ -265,7 +270,6 @@
 			children = (
 				96FEEA7A1BB922A50092C981 /* DictionaryDemo.h */,
 				96FEEA7B1BB922A50092C981 /* DictionaryDemo.m */,
-				96FEEA7D1BB922E60092C981 /* Dictionary.plist */,
 			);
 			name = Dictionary;
 			sourceTree = "<group>";
@@ -320,6 +324,17 @@
 				96FEEA781BB873EC0092C981 /* Exercise2.m */,
 			);
 			name = QuickSort;
+			sourceTree = "<group>";
+		};
+		96FEEA7F1BB9308B0092C981 /* NSMutable Array */ = {
+			isa = PBXGroup;
+			children = (
+				96FEEA801BB931600092C981 /* NSArray+Extend.h */,
+				96FEEA811BB931600092C981 /* NSArray+Extend.m */,
+				96FEEA831BB931A20092C981 /* WordCount.h */,
+				96FEEA841BB931A20092C981 /* WordCount.m */,
+			);
+			name = "NSMutable Array";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -427,7 +442,6 @@
 			files = (
 				96B1E2631BAC77270089CCDF /* LaunchScreen.storyboard in Resources */,
 				96B1E29E1BAC960E0089CCDF /* DemoSelector.xib in Resources */,
-				96FEEA7E1BB922E60092C981 /* Dictionary.plist in Resources */,
 				96B1E2601BAC77270089CCDF /* Assets.xcassets in Resources */,
 				96B1E30A1BB06B970089CCDF /* AdvancedSlider1.xib in Resources */,
 				96B1E3051BB05C640089CCDF /* BasicSlider.xib in Resources */,
@@ -462,6 +476,7 @@
 				96B1E2901BAC7A0E0089CCDF /* BootLogic.m in Sources */,
 				96B1E2921BAC7A0E0089CCDF /* MainScreen.m in Sources */,
 				96B1E2911BAC7A0E0089CCDF /* ConsoleScreen.m in Sources */,
+				96FEEA851BB931A20092C981 /* WordCount.m in Sources */,
 				96B1E3211BB482C20089CCDF /* ImageSkewer.m in Sources */,
 				96B1E28F1BAC7A0E0089CCDF /* AppDelegate.m in Sources */,
 				96B1E32B1BB536430089CCDF /* BarcelonaRotation.m in Sources */,
@@ -477,6 +492,7 @@
 				96B1E3091BB06B970089CCDF /* AdvancedSlider1.m in Sources */,
 				96B1E3041BB05C640089CCDF /* BasicSlider.m in Sources */,
 				96B1E3361BB552FB0089CCDF /* UniqueElementFromArrayDemo.m in Sources */,
+				96FEEA821BB931600092C981 /* NSArray+Extend.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
