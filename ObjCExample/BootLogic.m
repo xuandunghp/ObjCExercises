@@ -29,8 +29,9 @@
                                              //@{TITLE: @"NSArray truy vấn - Barcelona Rotation", CLASS: @"BarcelonaRotation"},
                                              //@{TITLE: @"NSArray truy vấn - Unique elements", CLASS: @"UniqueElementFromArrayDemo"},
                                              //@{TITLE: @"NSArray gọi hàm xử lý từng phần tử", CLASS: @"IntegerToText"}
-                                             @{TITLE: @"C Array vs NSArray - 1", CLASS: @"Exercise1"},
-                                             @{TITLE: @"C Array vs NSArray - 2", CLASS: @"Exercise2"}
+                                             //@{TITLE: @"C Array vs NSArray - 1", CLASS: @"Exercise1"},
+                                             //@{TITLE: @"C Array vs NSArray - 2", CLASS: @"Exercise2"},
+                                             @{TITLE: @"NSDictionary", CLASS: @"DictionaryDemo"}
                                             ]
                                     };
     
