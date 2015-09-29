@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		96B1E2551BAC77270089CCDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1E2541BAC77270089CCDF /* main.m */; };
-		96B1E2601BAC77270089CCDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B1E25F1BAC77270089CCDF /* Assets.xcassets */; };
 		96B1E2631BAC77270089CCDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B1E2611BAC77270089CCDF /* LaunchScreen.storyboard */; };
 		96B1E28F1BAC7A0E0089CCDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1E2881BAC7A0E0089CCDF /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
 		96B1E2901BAC7A0E0089CCDF /* BootLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1E28A1BAC7A0E0089CCDF /* BootLogic.m */; settings = {ASSET_TAGS = (); }; };
@@ -36,6 +35,10 @@
 		96FEEA7C1BB922A50092C981 /* DictionaryDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FEEA7B1BB922A50092C981 /* DictionaryDemo.m */; settings = {ASSET_TAGS = (); }; };
 		96FEEA821BB931600092C981 /* NSArray+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FEEA811BB931600092C981 /* NSArray+Extend.m */; settings = {ASSET_TAGS = (); }; };
 		96FEEA851BB931A20092C981 /* WordCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FEEA841BB931A20092C981 /* WordCount.m */; settings = {ASSET_TAGS = (); }; };
+		96FEEA891BBA49000092C981 /* CustomizedUISwitchDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FEEA881BBA49000092C981 /* CustomizedUISwitchDemo.m */; settings = {ASSET_TAGS = (); }; };
+		96FEEA8D1BBA4A000092C981 /* CustomSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FEEA8C1BBA4A000092C981 /* CustomSwitch.m */; settings = {ASSET_TAGS = (); }; };
+		96FEEA911BBA50210092C981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96FEEA901BBA50210092C981 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		96FEEA931BBA56AA0092C981 /* CustomizedUISwitchDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96FEEA921BBA56AA0092C981 /* CustomizedUISwitchDemo.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +61,6 @@
 /* Begin PBXFileReference section */
 		96B1E2501BAC77270089CCDF /* ObjCExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B1E2541BAC77270089CCDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		96B1E25F1BAC77270089CCDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96B1E2621BAC77270089CCDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96B1E2641BAC77270089CCDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96B1E2691BAC77270089CCDF /* ObjCExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjCExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +110,12 @@
 		96FEEA811BB931600092C981 /* NSArray+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extend.m"; sourceTree = "<group>"; };
 		96FEEA831BB931A20092C981 /* WordCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordCount.h; sourceTree = "<group>"; };
 		96FEEA841BB931A20092C981 /* WordCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordCount.m; sourceTree = "<group>"; };
+		96FEEA871BBA49000092C981 /* CustomizedUISwitchDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomizedUISwitchDemo.h; sourceTree = "<group>"; };
+		96FEEA881BBA49000092C981 /* CustomizedUISwitchDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomizedUISwitchDemo.m; sourceTree = "<group>"; };
+		96FEEA8B1BBA4A000092C981 /* CustomSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSwitch.h; sourceTree = "<group>"; };
+		96FEEA8C1BBA4A000092C981 /* CustomSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSwitch.m; sourceTree = "<group>"; };
+		96FEEA901BBA50210092C981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96FEEA921BBA56AA0092C981 /* CustomizedUISwitchDemo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomizedUISwitchDemo.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,8 +166,8 @@
 			children = (
 				96B1E2861BAC79D90089CCDF /* Core */,
 				96B1E2931BAC8F300089CCDF /* Basic */,
-				96B1E25F1BAC77270089CCDF /* Assets.xcassets */,
 				96B1E2611BAC77270089CCDF /* LaunchScreen.storyboard */,
+				96FEEA901BBA50210092C981 /* Assets.xcassets */,
 				96B1E2641BAC77270089CCDF /* Info.plist */,
 				96B1E2531BAC77270089CCDF /* Supporting Files */,
 			);
@@ -192,15 +200,16 @@
 		96B1E2931BAC8F300089CCDF /* Basic */ = {
 			isa = PBXGroup;
 			children = (
-				96B1E3191BB481620089CCDF /* Dictionary */,
-				96B1E3151BB3FDE90089CCDF /* Array */,
+				96FEEA861BBA482E0092C981 /* UISwitch */,
+				96B1E3191BB481620089CCDF /* NSDictionary */,
+				96B1E3151BB3FDE90089CCDF /* NSArray */,
 				96B1E3111BB25B6C0089CCDF /* FunctionAndSelector */,
-				96B1E3101BB25B3F0089CCDF /* Slider */,
+				96B1E3101BB25B3F0089CCDF /* UISlider */,
 			);
 			name = Basic;
 			sourceTree = "<group>";
 		};
-		96B1E3101BB25B3F0089CCDF /* Slider */ = {
+		96B1E3101BB25B3F0089CCDF /* UISlider */ = {
 			isa = PBXGroup;
 			children = (
 				96B1E31A1BB4821D0089CCDF /* ImageSkewer */,
@@ -208,7 +217,7 @@
 				96B1E3131BB25C360089CCDF /* AdvancedSlider1 */,
 				96B1E3141BB25C450089CCDF /* AdvancedSlider2 */,
 			);
-			name = Slider;
+			name = UISlider;
 			sourceTree = "<group>";
 		};
 		96B1E3111BB25B6C0089CCDF /* FunctionAndSelector */ = {
@@ -253,7 +262,7 @@
 			name = AdvancedSlider2;
 			sourceTree = "<group>";
 		};
-		96B1E3151BB3FDE90089CCDF /* Array */ = {
+		96B1E3151BB3FDE90089CCDF /* NSArray */ = {
 			isa = PBXGroup;
 			children = (
 				96FEEA7F1BB9308B0092C981 /* NSMutable Array */,
@@ -262,16 +271,16 @@
 				96B1E3381BB65ACA0089CCDF /* UniqueElements */,
 				96B1E3371BB65AB40089CCDF /* BarcelonaRotation */,
 			);
-			name = Array;
+			name = NSArray;
 			sourceTree = "<group>";
 		};
-		96B1E3191BB481620089CCDF /* Dictionary */ = {
+		96B1E3191BB481620089CCDF /* NSDictionary */ = {
 			isa = PBXGroup;
 			children = (
 				96FEEA7A1BB922A50092C981 /* DictionaryDemo.h */,
 				96FEEA7B1BB922A50092C981 /* DictionaryDemo.m */,
 			);
-			name = Dictionary;
+			name = NSDictionary;
 			sourceTree = "<group>";
 		};
 		96B1E31A1BB4821D0089CCDF /* ImageSkewer */ = {
@@ -335,6 +344,26 @@
 				96FEEA841BB931A20092C981 /* WordCount.m */,
 			);
 			name = "NSMutable Array";
+			sourceTree = "<group>";
+		};
+		96FEEA861BBA482E0092C981 /* UISwitch */ = {
+			isa = PBXGroup;
+			children = (
+				96FEEA8A1BBA49AA0092C981 /* CustomSwitch */,
+				96FEEA871BBA49000092C981 /* CustomizedUISwitchDemo.h */,
+				96FEEA881BBA49000092C981 /* CustomizedUISwitchDemo.m */,
+				96FEEA921BBA56AA0092C981 /* CustomizedUISwitchDemo.xib */,
+			);
+			name = UISwitch;
+			sourceTree = "<group>";
+		};
+		96FEEA8A1BBA49AA0092C981 /* CustomSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				96FEEA8B1BBA4A000092C981 /* CustomSwitch.h */,
+				96FEEA8C1BBA4A000092C981 /* CustomSwitch.m */,
+			);
+			name = CustomSwitch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -441,13 +470,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				96B1E2631BAC77270089CCDF /* LaunchScreen.storyboard in Resources */,
+				96FEEA931BBA56AA0092C981 /* CustomizedUISwitchDemo.xib in Resources */,
 				96B1E29E1BAC960E0089CCDF /* DemoSelector.xib in Resources */,
-				96B1E2601BAC77270089CCDF /* Assets.xcassets in Resources */,
 				96B1E30A1BB06B970089CCDF /* AdvancedSlider1.xib in Resources */,
 				96B1E3051BB05C640089CCDF /* BasicSlider.xib in Resources */,
 				96B1E32D1BB536A60089CCDF /* BarcelonaPlayers.plist in Resources */,
 				96B1E30F1BB25ADF0089CCDF /* AdvancedSlider2.xib in Resources */,
 				96B1E3221BB482C20089CCDF /* ImageSkewer.xib in Resources */,
+				96FEEA911BBA50210092C981 /* Assets.xcassets in Resources */,
 				96B1E3281BB4897F0089CCDF /* steve.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +505,7 @@
 			files = (
 				96B1E2901BAC7A0E0089CCDF /* BootLogic.m in Sources */,
 				96B1E2921BAC7A0E0089CCDF /* MainScreen.m in Sources */,
+				96FEEA891BBA49000092C981 /* CustomizedUISwitchDemo.m in Sources */,
 				96B1E2911BAC7A0E0089CCDF /* ConsoleScreen.m in Sources */,
 				96FEEA851BB931A20092C981 /* WordCount.m in Sources */,
 				96B1E3211BB482C20089CCDF /* ImageSkewer.m in Sources */,
@@ -488,6 +519,7 @@
 				96B1E2551BAC77270089CCDF /* main.m in Sources */,
 				96FEEA761BB864D90092C981 /* Exercise1.m in Sources */,
 				96FEEA791BB873EC0092C981 /* Exercise2.m in Sources */,
+				96FEEA8D1BBA4A000092C981 /* CustomSwitch.m in Sources */,
 				96B1E3331BB550EE0089CCDF /* NSArray+GettingUniqueElementsAddition.m in Sources */,
 				96B1E3091BB06B970089CCDF /* AdvancedSlider1.m in Sources */,
 				96B1E3041BB05C640089CCDF /* BasicSlider.m in Sources */,
