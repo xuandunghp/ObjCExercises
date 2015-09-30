@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		966B839E1BBB90D90028DBEF /* BasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 966B839C1BBB90D90028DBEF /* BasicView.m */; settings = {ASSET_TAGS = (); }; };
+		966B839F1BBB90D90028DBEF /* BasicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 966B839D1BBB90D90028DBEF /* BasicView.xib */; settings = {ASSET_TAGS = (); }; };
+		966B83A21BBB9B260028DBEF /* ChessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 966B83A11BBB9B260028DBEF /* ChessView.m */; settings = {ASSET_TAGS = (); }; };
 		96B1E2551BAC77270089CCDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1E2541BAC77270089CCDF /* main.m */; };
 		96B1E2631BAC77270089CCDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B1E2611BAC77270089CCDF /* LaunchScreen.storyboard */; };
 		96B1E28F1BAC7A0E0089CCDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1E2881BAC7A0E0089CCDF /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
@@ -59,6 +62,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		966B839B1BBB90D90028DBEF /* BasicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicView.h; sourceTree = "<group>"; };
+		966B839C1BBB90D90028DBEF /* BasicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicView.m; sourceTree = "<group>"; };
+		966B839D1BBB90D90028DBEF /* BasicView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicView.xib; sourceTree = "<group>"; };
+		966B83A01BBB9B260028DBEF /* ChessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessView.h; sourceTree = "<group>"; };
+		966B83A11BBB9B260028DBEF /* ChessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessView.m; sourceTree = "<group>"; };
 		96B1E2501BAC77270089CCDF /* ObjCExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B1E2541BAC77270089CCDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		96B1E2621BAC77270089CCDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -143,6 +151,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		966B839A1BBB90560028DBEF /* UIViewBasic */ = {
+			isa = PBXGroup;
+			children = (
+				966B839B1BBB90D90028DBEF /* BasicView.h */,
+				966B839C1BBB90D90028DBEF /* BasicView.m */,
+				966B839D1BBB90D90028DBEF /* BasicView.xib */,
+				966B83A01BBB9B260028DBEF /* ChessView.h */,
+				966B83A11BBB9B260028DBEF /* ChessView.m */,
+			);
+			name = UIViewBasic;
+			sourceTree = "<group>";
+		};
 		96B1E2471BAC77270089CCDF = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +220,7 @@
 		96B1E2931BAC8F300089CCDF /* Basic */ = {
 			isa = PBXGroup;
 			children = (
+				966B839A1BBB90560028DBEF /* UIViewBasic */,
 				96FEEA861BBA482E0092C981 /* UISwitch */,
 				96B1E3191BB481620089CCDF /* NSDictionary */,
 				96B1E3151BB3FDE90089CCDF /* NSArray */,
@@ -471,6 +492,7 @@
 			files = (
 				96B1E2631BAC77270089CCDF /* LaunchScreen.storyboard in Resources */,
 				96FEEA931BBA56AA0092C981 /* CustomizedUISwitchDemo.xib in Resources */,
+				966B839F1BBB90D90028DBEF /* BasicView.xib in Resources */,
 				96B1E29E1BAC960E0089CCDF /* DemoSelector.xib in Resources */,
 				96B1E30A1BB06B970089CCDF /* AdvancedSlider1.xib in Resources */,
 				96B1E3051BB05C640089CCDF /* BasicSlider.xib in Resources */,
@@ -518,6 +540,8 @@
 				96B1E29D1BAC960E0089CCDF /* DemoSelector.m in Sources */,
 				96B1E2551BAC77270089CCDF /* main.m in Sources */,
 				96FEEA761BB864D90092C981 /* Exercise1.m in Sources */,
+				966B83A21BBB9B260028DBEF /* ChessView.m in Sources */,
+				966B839E1BBB90D90028DBEF /* BasicView.m in Sources */,
 				96FEEA791BB873EC0092C981 /* Exercise2.m in Sources */,
 				96FEEA8D1BBA4A000092C981 /* CustomSwitch.m in Sources */,
 				96B1E3331BB550EE0089CCDF /* NSArray+GettingUniqueElementsAddition.m in Sources */,

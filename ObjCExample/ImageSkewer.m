@@ -79,7 +79,7 @@ typedef unsigned char byte;
     float tanAlpha = tanf(angle);
     float tanBeta = tanf(angle);
 
-    int x1, y1, x2, y2, byteIndex1, byteIndex2;
+    NSUInteger x1, y1, x2, y2, byteIndex1, byteIndex2;
     
     for (x1 = 0; x1 < _width; x1++) {
         for (y1 = 0; y1 < _height; y1++) {

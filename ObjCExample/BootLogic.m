@@ -23,7 +23,9 @@
 //                                    @{TITLE: @"Advanced Slider 1", CLASS: @"AdvancedSlider1"},
 //                                    @{TITLE: @"Advanced Slider 2", CLASS: @"AdvancedSlider2"},
 //                                    @{TITLE: @"Image Skewer", CLASS: @"ImageSkewer"},
-                                    @{TITLE: @"Customized Switch", CLASS: @"CustomizedUISwitchDemo"}
+                                      @{TITLE: @"Customized Switch", CLASS: @"CustomizedUISwitchDemo"},
+                                      @{TITLE: @"Swift to Objective C - Basic View", CLASS: @"BasicView"},
+                                      @{TITLE: @"Swift to Objective C - Chess View", CLASS: @"ChessView"}
                           ]};
 //    NSDictionary* collectionDemo = @{SECTION: @"Collection",
 //                                     MENU: @[

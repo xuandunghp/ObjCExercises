@@ -88,11 +88,11 @@ typedef enum {
     return result;
 }
 
-- (NSString *) readGroup3Unit:(int)groupNumber {
+- (NSString *) readGroup3Unit:(NSUInteger)groupNumber {
     if (groupNumber <= 0) return @"";
 
-    int x = groupNumber % _group3Unit.count;
-    int y = groupNumber / _group3Unit.count;
+    NSUInteger x = groupNumber % _group3Unit.count;
+    NSUInteger y = groupNumber / _group3Unit.count;
     
     NSMutableString *result = [NSMutableString new];
     

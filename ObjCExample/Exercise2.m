@@ -39,7 +39,7 @@
 }
 
 - (void) quickSort:(NSMutableArray *)arr {
-    int length = [arr count];
+    int length = (int)[arr count];
     if (length <= 1) return;
     
     NSMutableArray *lowerOrEqual = [NSMutableArray new];
@@ -78,7 +78,7 @@
     NSMutableString *randomString = [NSMutableString stringWithCapacity: length];
 
     for (int i = 0; i < length; i++) {
-        [randomString appendFormat: @"%C", [letters characterAtIndex: arc4random_uniform([letters length])]];
+        [randomString appendFormat: @"%C", [letters characterAtIndex: arc4random_uniform((u_int32_t)[letters length])]];
     }
 
     return randomString;
