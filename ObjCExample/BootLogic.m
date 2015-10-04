@@ -16,17 +16,15 @@
     MainScreen* mainScreen = [[MainScreen alloc] initWithStyle:UITableViewStyleGrouped];
 
     //--------- From this line, please customize your menu data -----------
-    NSDictionary* basic = @{SECTION: @"Basic", MENU: @[
+//    NSDictionary* basic = @{SECTION: @"Basic", MENU: @[
 //                                    @{TITLE: @"Function", CLASS: @"DemoFunction"},
 //                                    @{TITLE: @"Selector", CLASS: @"DemoSelector"},
 //                                    @{TITLE: @"Basic Slider", CLASS: @"BasicSlider"},
 //                                    @{TITLE: @"Advanced Slider 1", CLASS: @"AdvancedSlider1"},
 //                                    @{TITLE: @"Advanced Slider 2", CLASS: @"AdvancedSlider2"},
 //                                    @{TITLE: @"Image Skewer", CLASS: @"ImageSkewer"},
-                                      @{TITLE: @"Customized Switch", CLASS: @"CustomizedUISwitchDemo"},
-                                      @{TITLE: @"Swift to Objective C - Basic View", CLASS: @"BasicView"},
-                                      @{TITLE: @"Swift to Objective C - Chess View", CLASS: @"ChessView"}
-                          ]};
+//                                    @{TITLE: @"Customized Switch", CLASS: @"CustomizedUISwitchDemo"}
+//                          ]};
 //    NSDictionary* collectionDemo = @{SECTION: @"Collection",
 //                                     MENU: @[
 //                                             @{TITLE: @"NSArray truy vấn - Barcelona Rotation", CLASS: @"BarcelonaRotation"},
@@ -38,15 +36,25 @@
 //                                             @{TITLE: @"NSMutable Array Category", CLASS: @"WordCount"}
 //                                            ]
 //                                    };
+
     
-//    NSDictionary* intermediate = @{SECTION: @"Intermediate", MENU: @[
-//                                    @{TITLE: @"Inter B", CLASS: @"InterB"}
-//                                  ]};
-//    NSDictionary* advanced = @{SECTION: @"Advanced", MENU: @[
-//                                    @{TITLE: @"Advanced C", CLASS: @"AdvancedC"}
-//                             ]};
+    NSDictionary *advancedUIView = @{SECTION: @"Advanced UIView", MENU: @[
+//                                             @{TITLE: @"Swift to Objective C - Basic View", CLASS: @"BasicView"},
+//                                             @{TITLE: @"Swift to Objective C - Chess View", CLASS: @"ChessView"},
+                                             @{TITLE: @"Camp fire", CLASS: @"CampFire"},
+                                             @{TITLE: @"Nested square", CLASS: @"NestedSquare"},
+                                             @{TITLE: @"Flying bird", CLASS: @"FlyingBird"},
+                                             @{TITLE: @"Swing ship", CLASS: @"SwingShip"},
+                                             @{TITLE: @"Star Field", CLASS: @"StarField"},
+                                             @{TITLE: @"Hex color #2", CLASS: @"DemoColor1"},
+                                             @{TITLE: @"Hex color #3", CLASS: @"DemoColor2"},
+                                             @{TITLE: @"Rolling Ball", CLASS: @"RollingBall"},
+                                             @{TITLE: @"Earth around sun", CLASS: @"EarthAroundSun"},
+                                             @{TITLE: @"Drop ball", CLASS: @"DropBall"}
+                                             ]
+                                     };
     
-    mainScreen.menu = @[basic];
+    mainScreen.menu = @[advancedUIView];
     mainScreen.title = @"Bootstrap App";
     mainScreen.about = @"This is demo bootstrap demo app. It is collection of sample code of AVFoundation";
     //--------- End of customization -----------
