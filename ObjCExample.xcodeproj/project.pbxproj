@@ -75,6 +75,8 @@
 		96B1E3331BB550EE0089CCDF /* NSArray+GettingUniqueElementsAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1E3321BB550EE0089CCDF /* NSArray+GettingUniqueElementsAddition.m */; settings = {ASSET_TAGS = (); }; };
 		96B1E3361BB552FB0089CCDF /* UniqueElementFromArrayDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1E3351BB552FB0089CCDF /* UniqueElementFromArrayDemo.m */; settings = {ASSET_TAGS = (); }; };
 		96B1E33C1BB65C830089CCDF /* IntegerToText.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1E33B1BB65C830089CCDF /* IntegerToText.m */; settings = {ASSET_TAGS = (); }; };
+		96CD2EC41BC366B700274570 /* AutolayoutDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CD2EC21BC366B700274570 /* AutolayoutDemo.m */; settings = {ASSET_TAGS = (); }; };
+		96CD2EC51BC366B700274570 /* AutolayoutDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96CD2EC31BC366B700274570 /* AutolayoutDemo.xib */; settings = {ASSET_TAGS = (); }; };
 		96CF7E911BBF79CB00CAD889 /* DropBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CF7E901BBF79CB00CAD889 /* DropBall.m */; settings = {ASSET_TAGS = (); }; };
 		96CF7E941BBF93B500CAD889 /* boat.png in Resources */ = {isa = PBXBuildFile; fileRef = 96CF7E931BBF93B500CAD889 /* boat.png */; settings = {ASSET_TAGS = (); }; };
 		96CF7E9B1BBFE02600CAD889 /* sea1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96CF7E991BBFE02600CAD889 /* sea1.jpg */; settings = {ASSET_TAGS = (); }; };
@@ -214,6 +216,9 @@
 		96B1E3351BB552FB0089CCDF /* UniqueElementFromArrayDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniqueElementFromArrayDemo.m; sourceTree = "<group>"; };
 		96B1E33A1BB65C830089CCDF /* IntegerToText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegerToText.h; sourceTree = "<group>"; };
 		96B1E33B1BB65C830089CCDF /* IntegerToText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegerToText.m; sourceTree = "<group>"; };
+		96CD2EC11BC366B700274570 /* AutolayoutDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutolayoutDemo.h; sourceTree = "<group>"; };
+		96CD2EC21BC366B700274570 /* AutolayoutDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutolayoutDemo.m; sourceTree = "<group>"; };
+		96CD2EC31BC366B700274570 /* AutolayoutDemo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutolayoutDemo.xib; sourceTree = "<group>"; };
 		96CF7E8F1BBF79CB00CAD889 /* DropBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropBall.h; sourceTree = "<group>"; };
 		96CF7E901BBF79CB00CAD889 /* DropBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropBall.m; sourceTree = "<group>"; };
 		96CF7E931BBF93B500CAD889 /* boat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boat.png; sourceTree = "<group>"; };
@@ -510,6 +515,7 @@
 		96B1E2931BAC8F300089CCDF /* Basic */ = {
 			isa = PBXGroup;
 			children = (
+				96CD2EC01BC3666500274570 /* Autolayout */,
 				966B839A1BBB90560028DBEF /* UIViewBasic */,
 				96FEEA861BBA482E0092C981 /* UISwitch */,
 				96B1E3191BB481620089CCDF /* NSDictionary */,
@@ -633,6 +639,16 @@
 				96B1E33B1BB65C830089CCDF /* IntegerToText.m */,
 			);
 			name = IntegerToText;
+			sourceTree = "<group>";
+		};
+		96CD2EC01BC3666500274570 /* Autolayout */ = {
+			isa = PBXGroup;
+			children = (
+				96CD2EC11BC366B700274570 /* AutolayoutDemo.h */,
+				96CD2EC21BC366B700274570 /* AutolayoutDemo.m */,
+				96CD2EC31BC366B700274570 /* AutolayoutDemo.xib */,
+			);
+			name = Autolayout;
 			sourceTree = "<group>";
 		};
 		96CF7E8E1BBF798700CAD889 /* DropBall */ = {
@@ -863,6 +879,7 @@
 				966B83C11BBBC47E0028DBEF /* campFire10.gif in Resources */,
 				966B84021BBD1ED20028DBEF /* bird4.png in Resources */,
 				96B1E3221BB482C20089CCDF /* ImageSkewer.xib in Resources */,
+				96CD2EC51BC366B700274570 /* AutolayoutDemo.xib in Resources */,
 				966B84141BBE29C20028DBEF /* red.png in Resources */,
 				96CF7E941BBF93B500CAD889 /* boat.png in Resources */,
 				966B84031BBD1ED20028DBEF /* bird5.png in Resources */,
@@ -914,6 +931,7 @@
 				96FEEA7C1BB922A50092C981 /* DictionaryDemo.m in Sources */,
 				965385301BC0E64600EE0FEF /* DemoColor2.m in Sources */,
 				96B1E2991BAC8F9C0089CCDF /* DemoFunction.m in Sources */,
+				96CD2EC41BC366B700274570 /* AutolayoutDemo.m in Sources */,
 				96B1E30E1BB25ADF0089CCDF /* AdvancedSlider2.m in Sources */,
 				96B1E33C1BB65C830089CCDF /* IntegerToText.m in Sources */,
 				966B840C1BBE29870028DBEF /* StarField.m in Sources */,

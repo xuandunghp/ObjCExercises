@@ -24,8 +24,13 @@
     
     [self drawJungle];
     [self addBird];
+}
+
+- (void) viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
     [self flyUpAndDown];
 }
+
 
 - (void) drawJungle {
     UIImageView *background = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"jungle.jpg"]];
@@ -55,8 +60,6 @@
     [UIView animateWithDuration:5.0
                      animations:^{
                          _bird.center = CGPointMake(self.view.bounds.size.width - 55, self.view.bounds.size.height - 34);
-                         
-//                         NSLog(@"%f", self.view.bounds.size.height);
                      }
                      completion:^(BOOL finished){
                          _bird.transform = CGAffineTransformConcat(CGAffineTransformMakeScale(-1, 1), CGAffineTransformMakeRotation(M_PI_4));
