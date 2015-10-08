@@ -16,16 +16,15 @@
     MainScreen* mainScreen = [[MainScreen alloc] initWithStyle:UITableViewStyleGrouped];
 
     //--------- From this line, please customize your menu data -----------
-    NSDictionary* basic = @{SECTION: @"Basic", MENU: @[
+//    NSDictionary* basic = @{SECTION: @"Basic", MENU: @[
 //                                    @{TITLE: @"Function", CLASS: @"DemoFunction"},
 //                                    @{TITLE: @"Selector", CLASS: @"DemoSelector"},
 //                                    @{TITLE: @"Basic Slider", CLASS: @"BasicSlider"},
 //                                    @{TITLE: @"Advanced Slider 1", CLASS: @"AdvancedSlider1"},
 //                                    @{TITLE: @"Advanced Slider 2", CLASS: @"AdvancedSlider2"},
 //                                    @{TITLE: @"Image Skewer", CLASS: @"ImageSkewer"},
-//                                    @{TITLE: @"Customized Switch", CLASS: @"CustomizedUISwitchDemo"},
-                                    @{TITLE: @"Advanced Autolayout", CLASS: @"AutolayoutDemo"}
-                          ]};
+//                                    @{TITLE: @"Customized Switch", CLASS: @"CustomizedUISwitchDemo"}
+//                          ]};
 
 //    NSDictionary* collectionDemo = @{SECTION: @"Collection",
 //                                     MENU: @[
@@ -56,7 +55,22 @@
 //                                             ]
 //                                     };
     
-    mainScreen.menu = @[basic];
+//    NSDictionary* advancedAutolayout = @{SECTION: @"Advanced Autolayout", MENU: @[
+//                                                 @{TITLE: @"Get size of UIView in Autolayout", CLASS: @"AutolayoutDemo"}
+//                                                 ]
+//                                         };
+    
+    NSDictionary* UIScrollView = @{SECTION: @"UIScrollView", MENU: @[
+                                           @{TITLE: @"Basic UIScrollView", CLASS:@"BasicScrollView"},
+                                           @{TITLE: @"Scale with slider", CLASS:@"ScaleWithSlider"},
+                                           @{TITLE: @"Content size basic", CLASS:@"ContentSizeBasic"},
+                                           @{TITLE: @"Tap to zoom", CLASS:@"PhotoListTableViewController"},
+                                           @{TITLE: @"Paging ScrollView", CLASS:@"SimpleScroll"}
+                                           ]
+                                   };
+                                   
+    
+    mainScreen.menu = @[UIScrollView];
     mainScreen.title = @"Bootstrap App";
     mainScreen.about = @"This is demo bootstrap demo app. It is collection of sample code of AVFoundation";
     //--------- End of customization -----------
