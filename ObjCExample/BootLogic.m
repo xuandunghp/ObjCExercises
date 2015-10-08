@@ -62,8 +62,8 @@
     
     NSDictionary* UIScrollView = @{SECTION: @"UIScrollView", MENU: @[
                                            @{TITLE: @"Basic UIScrollView", CLASS:@"BasicScrollView"},
-                                           @{TITLE: @"Scale with slider", CLASS:@"ScaleWithSlider"},
-                                           @{TITLE: @"Content size basic", CLASS:@"ContentSizeBasic"},
+                                           @{TITLE: @"UIScrollView with UIToolBar, UIBarButtonItem", CLASS:@"ScaleWithSlider"},
+                                           @{TITLE: @"ContentSize and bounce", CLASS:@"ContentSizeBasic"},
                                            @{TITLE: @"Tap to zoom", CLASS:@"PhotoListTableViewController"},
                                            @{TITLE: @"Paging ScrollView", CLASS:@"SimpleScroll"}
                                            ]
