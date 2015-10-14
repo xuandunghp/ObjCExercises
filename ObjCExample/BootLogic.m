@@ -60,17 +60,24 @@
 //                                                 ]
 //                                         };
     
-    NSDictionary* UIScrollView = @{SECTION: @"UIScrollView", MENU: @[
-                                           @{TITLE: @"Basic UIScrollView", CLASS:@"BasicScrollView"},
-                                           @{TITLE: @"UIScrollView with UIToolBar, UIBarButtonItem", CLASS:@"ScaleWithSlider"},
-                                           @{TITLE: @"ContentSize and bounce", CLASS:@"ContentSizeBasic"},
-                                           @{TITLE: @"Tap to zoom", CLASS:@"PhotoListTableViewController"},
-                                           @{TITLE: @"Paging ScrollView", CLASS:@"SimpleScroll"}
-                                           ]
-                                   };
-                                   
+//    NSDictionary* UIScrollView = @{SECTION: @"UIScrollView", MENU: @[
+//                                           @{TITLE: @"Basic UIScrollView", CLASS:@"BasicScrollView"},
+//                                           @{TITLE: @"UIScrollView with UIToolBar, UIBarButtonItem", CLASS:@"ScaleWithSlider"},
+//                                           @{TITLE: @"ContentSize and bounce", CLASS:@"ContentSizeBasic"},
+//                                           @{TITLE: @"Tap to zoom", CLASS:@"PhotoListTableViewController"},
+//                                           @{TITLE: @"Paging ScrollView", CLASS:@"SimpleScroll"}
+//                                           ]
+//                                   };
     
-    mainScreen.menu = @[UIScrollView];
+    NSDictionary *UIGestureRecognizer = @{SECTION: @"UIGestureRecognizer", MENU: @[
+                                                  @{TITLE: @"Tap, Pan, Pinch", CLASS:@"RugbyRotation"},
+                                                  @{TITLE: @"Gesture coordination", CLASS: @"GestureCoordination"},
+                                                  @{TITLE: @"Len zoom", CLASS: @"LenZoom"}
+                                                  ]
+                                          };
+    
+    
+    mainScreen.menu = @[UIGestureRecognizer];
     mainScreen.title = @"Bootstrap App";
     mainScreen.about = @"This is demo bootstrap demo app. It is collection of sample code of AVFoundation";
     //--------- End of customization -----------
