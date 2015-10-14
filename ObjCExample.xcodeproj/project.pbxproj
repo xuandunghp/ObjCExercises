@@ -95,6 +95,12 @@
 		96CD2F131BC6EFD300274570 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96CD2F0D1BC6EFD300274570 /* 4.jpg */; settings = {ASSET_TAGS = (); }; };
 		96CD2F141BC6EFD300274570 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96CD2F0E1BC6EFD300274570 /* 5.jpg */; settings = {ASSET_TAGS = (); }; };
 		96CD2F151BC6EFD300274570 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96CD2F0F1BC6EFD300274570 /* 6.jpg */; settings = {ASSET_TAGS = (); }; };
+		96CD2F1A1BCB5D1500274570 /* RugbyRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CD2F181BCB5D1500274570 /* RugbyRotation.m */; settings = {ASSET_TAGS = (); }; };
+		96CD2F1B1BCB5D1500274570 /* RugbyRotation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96CD2F191BCB5D1500274570 /* RugbyRotation.xib */; settings = {ASSET_TAGS = (); }; };
+		96CD2F1D1BCB5D6200274570 /* rugby.png in Resources */ = {isa = PBXBuildFile; fileRef = 96CD2F1C1BCB5D6200274570 /* rugby.png */; settings = {ASSET_TAGS = (); }; };
+		96CD2F231BCBCAC000274570 /* GestureCoordination.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CD2F221BCBCAC000274570 /* GestureCoordination.m */; settings = {ASSET_TAGS = (); }; };
+		96CD2F271BCCBFAC00274570 /* LenZoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CD2F261BCCBFAC00274570 /* LenZoom.m */; settings = {ASSET_TAGS = (); }; };
+		96CD2F2A1BCD4F3500274570 /* girl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96CD2F291BCD4F3500274570 /* girl.jpg */; settings = {ASSET_TAGS = (); }; };
 		96CF7E911BBF79CB00CAD889 /* DropBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 96CF7E901BBF79CB00CAD889 /* DropBall.m */; settings = {ASSET_TAGS = (); }; };
 		96CF7E941BBF93B500CAD889 /* boat.png in Resources */ = {isa = PBXBuildFile; fileRef = 96CF7E931BBF93B500CAD889 /* boat.png */; settings = {ASSET_TAGS = (); }; };
 		96CF7E9B1BBFE02600CAD889 /* sea1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96CF7E991BBFE02600CAD889 /* sea1.jpg */; settings = {ASSET_TAGS = (); }; };
@@ -261,6 +267,15 @@
 		96CD2F0D1BC6EFD300274570 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 		96CD2F0E1BC6EFD300274570 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
 		96CD2F0F1BC6EFD300274570 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		96CD2F171BCB5D1500274570 /* RugbyRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RugbyRotation.h; sourceTree = "<group>"; };
+		96CD2F181BCB5D1500274570 /* RugbyRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RugbyRotation.m; sourceTree = "<group>"; };
+		96CD2F191BCB5D1500274570 /* RugbyRotation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RugbyRotation.xib; sourceTree = "<group>"; };
+		96CD2F1C1BCB5D6200274570 /* rugby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rugby.png; sourceTree = "<group>"; };
+		96CD2F211BCBCAC000274570 /* GestureCoordination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureCoordination.h; sourceTree = "<group>"; };
+		96CD2F221BCBCAC000274570 /* GestureCoordination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureCoordination.m; sourceTree = "<group>"; };
+		96CD2F251BCCBFAC00274570 /* LenZoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LenZoom.h; sourceTree = "<group>"; };
+		96CD2F261BCCBFAC00274570 /* LenZoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LenZoom.m; sourceTree = "<group>"; };
+		96CD2F291BCD4F3500274570 /* girl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girl.jpg; sourceTree = "<group>"; };
 		96CF7E8F1BBF79CB00CAD889 /* DropBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropBall.h; sourceTree = "<group>"; };
 		96CF7E901BBF79CB00CAD889 /* DropBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropBall.m; sourceTree = "<group>"; };
 		96CF7E931BBF93B500CAD889 /* boat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boat.png; sourceTree = "<group>"; };
@@ -525,6 +540,7 @@
 				966B83CA1BBBC7420028DBEF /* Advanced UIView */,
 				96CD2EC01BC3666500274570 /* Autolayout */,
 				96CD2EC61BC3C1FA00274570 /* UIScrollView */,
+				96CD2F161BCB5CF200274570 /* UIGestureRecognizer */,
 				96B1E2611BAC77270089CCDF /* LaunchScreen.storyboard */,
 				96FEEA901BBA50210092C981 /* Assets.xcassets */,
 				96B1E2641BAC77270089CCDF /* Info.plist */,
@@ -797,6 +813,62 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
+		96CD2F161BCB5CF200274570 /* UIGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				96CD2F1F1BCBCA4C00274570 /* RugbyRotation */,
+				96CD2F201BCBCA7600274570 /* GestureCoordination */,
+				96CD2F241BCCBF9900274570 /* LenZoom */,
+			);
+			name = UIGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		96CD2F1E1BCB5D9200274570 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				96CD2F1C1BCB5D6200274570 /* rugby.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		96CD2F1F1BCBCA4C00274570 /* RugbyRotation */ = {
+			isa = PBXGroup;
+			children = (
+				96CD2F1E1BCB5D9200274570 /* Images */,
+				96CD2F171BCB5D1500274570 /* RugbyRotation.h */,
+				96CD2F181BCB5D1500274570 /* RugbyRotation.m */,
+				96CD2F191BCB5D1500274570 /* RugbyRotation.xib */,
+			);
+			name = RugbyRotation;
+			sourceTree = "<group>";
+		};
+		96CD2F201BCBCA7600274570 /* GestureCoordination */ = {
+			isa = PBXGroup;
+			children = (
+				96CD2F211BCBCAC000274570 /* GestureCoordination.h */,
+				96CD2F221BCBCAC000274570 /* GestureCoordination.m */,
+			);
+			name = GestureCoordination;
+			sourceTree = "<group>";
+		};
+		96CD2F241BCCBF9900274570 /* LenZoom */ = {
+			isa = PBXGroup;
+			children = (
+				96CD2F281BCD4CE000274570 /* Images */,
+				96CD2F251BCCBFAC00274570 /* LenZoom.h */,
+				96CD2F261BCCBFAC00274570 /* LenZoom.m */,
+			);
+			name = LenZoom;
+			sourceTree = "<group>";
+		};
+		96CD2F281BCD4CE000274570 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				96CD2F291BCD4F3500274570 /* girl.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		96CF7E8E1BBF798700CAD889 /* DropBall */ = {
 			isa = PBXGroup;
 			children = (
@@ -1001,6 +1073,7 @@
 				966B83BA1BBBC47E0028DBEF /* campFire03.gif in Resources */,
 				966B83BD1BBBC47E0028DBEF /* campFire06.gif in Resources */,
 				96CD2F111BC6EFD300274570 /* 2.jpg in Resources */,
+				96CD2F1D1BCB5D6200274570 /* rugby.png in Resources */,
 				966B83C61BBBC47E0028DBEF /* campFire15.gif in Resources */,
 				966B839F1BBB90D90028DBEF /* BasicView.xib in Resources */,
 				966B83FF1BBD1ED20028DBEF /* bird1.png in Resources */,
@@ -1009,6 +1082,7 @@
 				96F5E0021BBEAC9D00A2F550 /* earth.png in Resources */,
 				96B1E29E1BAC960E0089CCDF /* DemoSelector.xib in Resources */,
 				96B1E30A1BB06B970089CCDF /* AdvancedSlider1.xib in Resources */,
+				96CD2F2A1BCD4F3500274570 /* girl.jpg in Resources */,
 				96CF7E9B1BBFE02600CAD889 /* sea1.jpg in Resources */,
 				966B83C71BBBC47E0028DBEF /* campFire16.gif in Resources */,
 				96CD2F141BC6EFD300274570 /* 5.jpg in Resources */,
@@ -1036,6 +1110,7 @@
 				966B83C11BBBC47E0028DBEF /* campFire10.gif in Resources */,
 				966B84021BBD1ED20028DBEF /* bird4.png in Resources */,
 				96B1E3221BB482C20089CCDF /* ImageSkewer.xib in Resources */,
+				96CD2F1B1BCB5D1500274570 /* RugbyRotation.xib in Resources */,
 				96CD2EC51BC366B700274570 /* AutolayoutDemo.xib in Resources */,
 				966B84141BBE29C20028DBEF /* red.png in Resources */,
 				96CF7E941BBF93B500CAD889 /* boat.png in Resources */,
@@ -1074,11 +1149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96CD2F231BCBCAC000274570 /* GestureCoordination.m in Sources */,
 				96F5DFF51BBEA23600A2F550 /* EarthAroundSun.m in Sources */,
 				96B1E2901BAC7A0E0089CCDF /* BootLogic.m in Sources */,
 				966B83F51BBD1DFC0028DBEF /* FlyingBird.m in Sources */,
 				96B1E2921BAC7A0E0089CCDF /* MainScreen.m in Sources */,
 				966B83A61BBBC4110028DBEF /* CampFire.m in Sources */,
+				96CD2F1A1BCB5D1500274570 /* RugbyRotation.m in Sources */,
 				96FEEA891BBA49000092C981 /* CustomizedUISwitchDemo.m in Sources */,
 				96B1E2911BAC7A0E0089CCDF /* ConsoleScreen.m in Sources */,
 				966B84191BBE3C1B0028DBEF /* DemoColor1.m in Sources */,
@@ -1096,6 +1173,7 @@
 				966B840C1BBE29870028DBEF /* StarField.m in Sources */,
 				96B1E29D1BAC960E0089CCDF /* DemoSelector.m in Sources */,
 				966B841C1BBE3C3D0028DBEF /* UIColor+Extend.m in Sources */,
+				96CD2F271BCCBFAC00274570 /* LenZoom.m in Sources */,
 				96B1E2551BAC77270089CCDF /* main.m in Sources */,
 				96FEEA761BB864D90092C981 /* Exercise1.m in Sources */,
 				966B83A21BBB9B260028DBEF /* ChessView.m in Sources */,
